@@ -1,0 +1,8 @@
+---
+
+ Rtr1:
+   host: droptini-rtr1
+   username: jdroptini
+   password: WouldntYouLikeToKnow
+   device_type: Router
+   use_session_log: True

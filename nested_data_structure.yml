@@ -1,0 +1,15 @@
+---
+
+Network_devices:
+  router1:
+    host: droptini-rtr1
+    username: jdroptini
+    password: WouldntYouLikeToKnow
+    device_type: router
+    use_session_log: False
+  switch1:
+    host: droptini-Sw1
+    username: jdroptini
+    password: WouldntYouLikeToKnow
+    device_type: switch
+    use_session_log: True 

@@ -1,0 +1,18 @@
+---
+
+- name: exercise3a
+  hosts: localhost
+  gather_facts: False
+  tasks: 
+    - ansible.builtin.debug:
+        var: ansible_host
+- name: Cisco
+  hosts: cisco
+  gather_facts: False
+  tasks:
+    - ansible.builtin.debug:
+        var: ansible_connection
+    - ansible.builtin.debug:
+        var: ansible_host  
+      
+
